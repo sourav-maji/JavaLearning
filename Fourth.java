@@ -44,6 +44,35 @@ public class Fourth {
         System.out.println(cal.add(6, 10,15));
         System.out.println(cal.add(6, 10.5));
 
+        int nums[] ={2,6,3,7};
+        nums[1]=4;
+        System.out.println(nums[1]);
+
+        int num2[] = new int[4]; // this will return an array of size 4 with values 0
+        System.out.println(num2[1]); 
+
+
+        // jagged array : in this type of array , the numbers of columns in each rows are not same
+
+        int num3[][] = new int[3][];
+        num3[0] = new int[3];
+        num3[1] = new int[4];
+        num3[2] = new int[2];
+
+        for(int i=0; i<num3.length;i++){
+            for(int j=0; j< num3[i].length;j++){
+                num3[i][j] =(int) (Math.random()*10);
+            }
+        }
+        System.out.println("Jagged Array : ");
+
+        for(int m[]: num3){
+            for(int n:m){
+                System.out.print(n+" ");
+            }
+            System.out.println();
+        }
+
     }
     
 }
