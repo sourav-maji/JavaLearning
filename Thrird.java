@@ -1,8 +1,7 @@
 import java.util.Scanner;
 public class Thrird {
-
+    static Scanner sc = new Scanner(System.in);
     public static void main( String []args){
-        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Name");
         String name = sc.nextLine();
         int marks = returnMarks();
@@ -15,7 +14,6 @@ public class Thrird {
     }
 
     public static int returnMarks(){
-        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the marks : ");
         int marks = sc.nextInt();
         return marks;
@@ -23,7 +21,6 @@ public class Thrird {
     }
 
     public static double returnAge(){
-        Scanner sc = new Scanner(System.in);
         System.out.println("enter the age");
         double age = sc.nextDouble();
         return age;
