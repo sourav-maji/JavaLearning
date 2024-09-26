@@ -22,6 +22,10 @@ public class Fifth {
         System.out.println(str);
         sb.deleteCharAt(2); // this will delete the char at index 2;
         System.out.println(sb);
+
+        // to insert a String at a particular index
+        sb.insert(0,"Java by ");
+        System.out.println(sb);
     }
     
 }
