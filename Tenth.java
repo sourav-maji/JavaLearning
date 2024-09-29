@@ -1,13 +1,13 @@
 abstract class Car{
     
-    abstract public void driving();
+    public abstract void driving();
 
     public void playMusic(){
         System.out.println("Music is playing ...");
     }
 }
 
-class WagnoR extends Car {
+class WagnoR extends Car {  // this is called a concrete class as it implements abstract class
     public void driving(){
         System.out.println("Car is driving ...");
     }
