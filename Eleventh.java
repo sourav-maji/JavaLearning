@@ -12,6 +12,8 @@ class A {
     }
 }
 
+// In inner class we can use static keyword. Outer class can't be static
+
 
 public class Eleventh {
 
