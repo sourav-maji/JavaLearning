@@ -1,0 +1,10 @@
+1 Amit 56
+2 Raju 90
+3 Amitava 45
+4 Rahul 78
+5 Babu 47
+6 Chandan 76
+7 Eman 65
+8 Karim 85
+9 Sanjib 100
+10 Rakhi 75
