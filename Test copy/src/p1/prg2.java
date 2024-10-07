@@ -1,5 +1,4 @@
-
-// package p1;
+package p1;
 import java.awt.Font;
 import javax.swing.*;
 import java.awt.event.*;
